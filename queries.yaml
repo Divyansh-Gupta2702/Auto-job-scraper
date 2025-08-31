@@ -1,0 +1,20 @@
+# Customize your search here.
+# "queries" are DuckDuckGo search strings. Use quotes and site filters to target ATS/job boards.
+# Good keywords: "entry level", "new grad", "junior", "SDE I", "graduate", "fresher".
+# Good ATS domains: lever.co, greenhouse.io, ashbyhq.com, boards.greenhouse.io, wellfound.com (AngelList), workable.com.
+# Region defaults to India-English and results limited to the last 7 days.
+region: in-en
+timelimit: d7
+max_per_query: 8
+
+queries:
+  - '"entry level" "software engineer" site:lever.co'
+  - '"new grad" "software engineer" site:greenhouse.io'
+  - '"junior software engineer" site:ashbyhq.com'
+  - '"software engineer" "fresher" site:wellfound.com'
+  - '"graduate software engineer" site:boards.greenhouse.io'
+  - '"SDE I" "software engineer" site:lever.co'
+  - '"new grad" "backend engineer" site:greenhouse.io'
+  - '"new grad" "frontend engineer" site:greenhouse.io'
+  - '"entry level" "software engineer" site:workable.com'
+  - '"new grad" "software engineer" site:jobs.ashbyhq.com'
