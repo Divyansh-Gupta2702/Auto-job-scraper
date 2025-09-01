@@ -1,12 +1,28 @@
-# DevOps-focused LinkedIn job search (last 7 days, India region)
 region: in-en
-timelimit: d7
-max_per_query: 8
+timelimit: d1   # jobs posted in the last 24 hours
+max_per_query: 15
 
 queries:
-  - '"DevOps Engineer" site:linkedin.com/jobs'
-  - '"Junior DevOps Engineer" site:linkedin.com/jobs'
-  - '"Entry Level DevOps Engineer" site:linkedin.com/jobs'
-  - '"DevOps Engineer Fresher" site:linkedin.com/jobs'
-  - '"Graduate DevOps Engineer" site:linkedin.com/jobs'
-  - '"SRE" "Site Reliability Engineer" site:linkedin.com/jobs'
+  # Generic DevOps / Cloud / SRE roles
+  - '"entry level" "DevOps Engineer" site:lever.co'
+  - '"junior DevOps Engineer" site:greenhouse.io'
+  - '"graduate DevOps Engineer" site:ashbyhq.com'
+  - '"fresher DevOps Engineer" site:wellfound.com'
+  - '"Cloud Engineer" "entry level" site:workable.com'
+  - '"SRE" "new grad" site:linkedin.com'
+  - '"Platform Engineer" "junior" site:linkedin.com'
+  - '"Infrastructure Engineer" "graduate" site:linkedin.com'
+
+  # India-focused DevOps jobs
+  - '"DevOps Engineer" "fresher" "India" site:linkedin.com'
+  - '"DevOps Engineer" "Bengaluru" site:greenhouse.io'
+  - '"Cloud Engineer" "Hyderabad" site:lever.co'
+  - '"Junior SRE" "Pune" site:ashbyhq.com'
+  - '"Graduate DevOps Engineer" "India" site:workable.com'
+
+  # Remote-friendly DevOps jobs
+  - '"DevOps Engineer" "remote" "entry level" site:linkedin.com'
+  - '"junior Cloud Engineer" "remote" site:lever.co'
+  - '"graduate SRE" "remote" site:greenhouse.io'
+  - '"fresher Platform Engineer" "remote" site:ashbyhq.com'
+  - '"Junior DevOps Engineer" "remote" site:wellfound.com'
