@@ -6,11 +6,11 @@ from email.mime.multipart import MIMEMultipart
 
 # Multiple LinkedIn Job Search Feeds
 SEARCH_URLS = {
-    "DevOps Fresher India": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/search/?keywords=devops%20engineer%20fresher%20india",
-    "Junior Cloud Engineer Remote": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/search/?keywords=junior%20cloud%20engineer%20remote",
-    "Site Reliability Engineer Graduate": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/search/?keywords=site%20reliability%20engineer%20graduate",
-    "AWS DevOps Associate": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/search/?keywords=aws%20devops%20associate",
-    "Kubernetes Engineer Fresher": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/search/?keywords=kubernetes%20engineer%20fresher"
+    "DevOps Fresher India": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/devops-fresher-jobs/?currentJobId=4291641440&originalSubdomain=in",
+    "Junior Cloud Engineer Remote":  "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/devops-fresher-jobs/?currentJobId=4291641440&originalSubdomain=in",
+    "Site Reliability Engineer Graduate":  "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/devops-fresher-jobs/?currentJobId=4291641440&originalSubdomain=in",
+    "AWS DevOps Associate": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/devops-fresher-jobs/?currentJobId=4291641440&originalSubdomain=in",
+    "Kubernetes Engineer Fresher": "https://rss2json.com/api.json?rss_url=https://www.linkedin.com/jobs/devops-fresher-jobs/?currentJobId=4291641440&originalSubdomain=in",
 }
 
 def fetch_jobs():
